@@ -1,0 +1,641 @@
+body{
+    background-image: linear-gradient(#FBD148,#FBD148);
+}
+div.header-container{
+    display: flex;
+    justify-content:space-around;
+}
+div.header-item{
+    width: 200px;
+    height: 50px;
+    margin: 10px;
+}
+div.header-item-1{
+    min-height: 80px;
+    width: 100px;
+    position:sticky;
+    top: 10px;
+    align-self: flex-start;
+}
+div.header-item-2{
+    min-height: 100px;
+    flex-grow: 1;
+}
+div.header-item-3{
+    min-height: 100px;
+    width: 100px;
+    overflow: hidden;
+}
+div.logo{
+    transform: scale(0.7, 0.7);
+}
+div.inner_logo{
+    height: 78px;
+    width: 78px;
+    background-color: #FFCA03;
+    border-radius: 100%;
+    border: 5px solid salmon;
+    transform: rotate(0deg);
+}
+div.pp1{
+    border-radius: 100%;
+    background-color: #950101;
+    height: 8px;
+    width: 8px;
+    transform: rotate(0deg);
+    margin-left: 10px;
+    margin-top: -35px;
+}
+div.pp2{
+    border-radius: 100%;
+    background-color: #950101;
+    height: 8px;
+    width: 8px;
+    transform: rotate(0deg);
+    margin-left: 25px;
+    margin-top: 2px;
+}
+div.pp3{
+    border-radius: 100%;
+    background-color: #950101;
+    height: 8px;
+    width: 8px;
+    transform: rotate(0deg);
+    margin-left: 14px;
+    margin-top: -35px;
+}
+div.pp4{
+    border-radius: 100%;
+    background-color: #950101;
+    height: 8px;
+    width: 8px;
+    transform: rotate(0deg);
+    margin-left: 17px;
+    margin-top: -25px;
+}
+div.pp5{
+    border-radius: 100%;
+    background-color: #950101;
+    height: 8px;
+    width: 8px;
+    transform: rotate(0deg);
+    margin-left: 31px;
+    margin-top: 8px;
+}
+div.pp6{
+    border-radius: 100%;
+    background-color: #950101;
+    height: 8px;
+    width: 8px;
+    transform: rotate(0deg);
+    margin-left: 35px;
+    margin-top: -30px;
+}
+div.pp7{
+    border-radius: 100%;
+    background-color: #950101;
+    height: 8px;
+    width: 8px;
+    transform: rotate(0deg);
+    margin-left: 39px;
+    margin-top: 28px;
+}
+div.pp8{
+    border-radius: 100%;
+    background-color: #950101;
+    height: 8px;
+    width: 8px;
+    transform: rotate(0deg);
+    margin-left: 41px;
+    margin-top: 13px;
+}
+div.pp9{
+    border-radius: 100%;
+    background-color: #950101;
+    height: 8px;
+    width: 8px;
+    transform: rotate(0deg);
+    margin-left: 58px;
+    margin-top: -13px;
+}
+div.pp10{
+    border-radius: 100%;
+    background-color: #950101;
+    height: 8px;
+    width: 8px;
+    transform: rotate(0deg);
+    margin-left: 53px;
+    margin-top: -38px;
+}
+div.pp11{
+    border-radius: 100%;
+    background-color: #950101;
+    height: 8px;
+    width: 8px;
+    transform: rotate(0deg);
+    margin-left: 59px;
+    margin-top: -28px;
+}
+div.pp12{
+    border-radius: 100%;
+    background-color: #950101;
+    height: 8px;
+    width: 8px;
+    transform: rotate(0deg);
+    margin-left: 69px;
+    margin-top: 20px;
+}
+div.pl1{
+    height: 0px;
+    width: 5px;
+    border-top-left-radius: 100%;
+    border-bottom-right-radius: 100%;
+    border: 3px solid #48aa4c;
+    transform: rotate(60deg);
+    margin-left: 18px;
+    margin-top: 0px;
+}
+div.pl2{
+    height: 0px;
+    width: 5px;
+    border-top-left-radius: 100%;
+    border-bottom-right-radius: 100%;
+    border: 3px solid #48aa4c;
+    transform: rotate(5deg);
+    margin-left: 22px;
+    margin-top: -30px;
+}
+div.pl3{
+    height: 0px;
+    width: 5px;
+    border-top-left-radius: 100%;
+    border-bottom-right-radius: 100%;
+    border: 3px solid #48aa4c;
+    transform: rotate(90deg);
+    margin-left: 45px;
+    margin-top: -15px;
+}
+div.pl4{
+    height: 0px;
+    width: 5px;
+    border-top-left-radius: 100%;
+    border-bottom-right-radius: 100%;
+    border: 3px solid #48aa4c;
+    transform: rotate(110deg);
+    margin-left: 50px;
+    margin-top: 45px;
+}
+div.pl5{
+    height: 0px;
+    width: 5px;
+    border-top-left-radius: 100%;
+    border-bottom-right-radius: 100%;
+    border: 3px solid #48aa4c;
+    transform: rotate(25deg);
+    margin-left: 65px;
+    margin-top: -45px;
+}
+div.pl6{
+    height: 0px;
+    width: 5px;
+    border-top-left-radius: 100%;
+    border-bottom-right-radius: 100%;
+    border: 3px solid #48aa4c;
+    transform: rotate(70deg);
+    margin-left: 45px;
+    margin-top: 10px;
+}
+div.inner_logo1{
+    height: 1px;
+    width: 88px;
+    background-color: #4F091D;
+    margin-top: -7px;
+    margin-left: -1px;
+    transform: rotate(30deg);
+}
+div.inner_logo2{
+    height: 1px;
+    width: 88px;
+    background-color: #4F091D;
+    margin-top: -3px;
+    margin-left: -1px;
+    transform: rotate(90deg);
+}
+div.inner_logo3{
+    height: 1px;
+    width: 88px;
+    background-color: #4F091D;
+    margin-top: 0px;
+    margin-left: 0px;
+    transform: rotate(150deg);
+}
+div.inner_logo4{
+    height: 0px;
+    width: 0px;
+    margin-top: -32px;
+    margin-left: 59px;
+    transform: rotate(150deg);
+    border-right: 52px solid transparent;
+    border-left: 52px solid transparent;
+    border-bottom: 90px solid #FBD148;
+    opacity: 0;
+    transition: 750ms;
+}
+p.logo_text{
+    color: tomato;
+    margin-top: -67px;
+    margin-left: 53px;
+    transform: rotate(0deg);
+    opacity: 0;
+    transition: 750ms;
+}
+div.logo :hover ~ div.inner_logo4{
+    opacity: 1;
+}
+div.logo :hover ~ p.logo_text{
+    opacity: 1;
+}
+p.header_text{
+    font-family: "Courier New", monospace;
+    font-size: 2.6vw;
+    text-align: center;
+    margin: 5px;
+}
+
+div.menufix{
+    height: 100px;
+    width: 100px;
+    background-color: transparent;
+    position: fixed;
+    top: 2vw;
+}
+div.menu{
+    height: 4vw;
+    width: 4vw;
+    min-width: 50%;
+    min-height: 50%;
+    max-width: 50%;
+    max-height: 50%;
+    background-color: transparent;
+    margin:10px;
+    overflow: hidden;
+}
+div.menu-bar1{
+    height: 0.25vw;
+    width: 4vw;
+    min-width: 55%;
+    min-height: 3px;
+    max-width: 55%;
+    max-height: 3px;
+    background-color: black;
+    border-top-left-radius: 25%;
+    border-bottom-left-radius: 25%;
+    border-left: 2px solid black;
+    border-top-right-radius: 25%;
+    border-bottom-right-radius: 25%;
+    border-right: 2px solid black;
+    margin:auto;
+    margin-top: 20%;
+}
+div.menu-bar2{
+    height: 0.25vw;
+    width: 4vw;
+    min-width: 55%;
+    min-height: 3px;
+    max-width: 10%;
+    max-height: 3px;
+    background-color: black;
+    border-top-left-radius: 25%;
+    border-bottom-left-radius: 25%;
+    border-left: 2px solid black;
+    border-top-right-radius: 25%;
+    border-bottom-right-radius: 25%;
+    border-right: 2px solid black;
+    margin:auto;
+    margin-top: 10%;
+}
+div.menu-bar3{
+    height: 0.25vw;
+    width: 4vw;
+    min-width: 55%;
+    min-height: 3px;
+    max-width: 10%;
+    max-height: 3px;
+    background-color: black;
+    border-top-left-radius: 25%;
+    border-bottom-left-radius: 25%;
+    border-left: 2px solid black;
+    border-top-right-radius: 25%;
+    border-bottom-right-radius: 25%;
+    border-right: 2px solid black;
+    margin:auto;
+    margin-top: 10%;
+}
+div.menu_cover{
+    height: 4vw;
+    width: 4vw;
+    min-width: 50%;
+    min-height: 40%;
+    max-width: 50%;
+    max-height: 40%;
+    background-color: transparent;
+    margin-top: -100px;
+    margin-left: 10px;
+    opacity: 0.5;
+}
+
+div.home_container{
+    display: flex;
+    justify-content:space-around;
+}
+div.home_item{
+    width: 200px;
+    height: 50vw;
+    margin: 1px;
+}
+div.home_item1{
+    min-height: 100px;
+    flex-grow: 1;
+}
+div.home_text{
+    height: 70%;
+    width: 65%;
+    margin: auto;
+    margin-top: 12%;
+    font-family: "Courier New", monospace;
+    font-size: 3.5vw;
+    text-align: center;
+    color: rgb(27, 2, 2);
+}
+span.home_text3{
+    font-family: Georgia, serif;
+    font-size: 4vw;
+    color: #C85C5C;
+    transition: 750ms;
+}
+a.htext3 :hover{
+    color: #3F0713;
+}
+span.home_text1{
+    transition: 500ms;
+}
+#htext1 :hover{
+    color: #81B214;
+    font-size: 110%;
+}
+span.home_text4{
+    color: #C85C5C;
+}
+
+div.images_container{
+    display: flex;
+    justify-content:space-around;
+    margin-top: 10%;
+}
+div.images_item{
+    height: 50vw;
+    margin: 1px;
+    transition: 1.5s;
+}
+div.images_item1{
+    opacity: 1;
+    border:0px;
+    width: 70%;
+}
+div.images_item2{
+    opacity: 0.7;
+    border:0px;
+    width: 15%;
+}
+div.images_item3{
+    border:0px;
+    width: 0px;
+}
+div.images_item4{
+    border:0px;
+    width: 0px;
+}
+div.images_item5{
+    border:0px;
+    width: 0px;
+}
+div.images_item1b{
+    border:0px;
+    width: 0px;
+}
+div.images_item5b{
+    opacity: 0.7;
+    border:0px;
+    width: 15%;
+}
+img{
+    width: 100%;
+    height: 100%;
+    object-fit:cover;
+}
+
+div.menuprice_container{
+    justify-content:space-around;
+    margin-top: 10%;
+    height: 50vw;
+}
+div.meatrow1{
+    display: flex;
+    justify-content:space-around;
+    height: 24.5%;
+}
+div.meatrow2{
+    display: flex;
+    justify-content:space-around;
+    height: 24.5%;
+}
+div.meatrow3{
+    display: flex;
+    justify-content:space-around;
+    height: 24.5%;
+}
+div.meatrow4{
+    display: flex;
+    justify-content:space-around;
+    height: 24.5%;
+}
+div.meat{
+    width: 24.5%;
+    text-align: center;
+    line-height: 1.5;
+    vertical-align: middle;
+    font-family: "Courier New", monospace;
+    font-size: calc(1.7vw + 5px);
+    overflow: hidden;
+    margin-top: 0.5%;
+}
+div.flip{
+    background-color: transparent;
+    perspective: 1000px;
+}
+div.finner{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: 1250ms;
+    transform-style: preserve-3d;
+}
+div.flip:hover div.finner{
+    transform: rotateY(180deg);
+}
+div.meat1f, div.meat1{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+}
+div.meat1{
+    background-color: #D4AC2B;
+    transform: rotateY(180deg);
+}
+
+div.event_container{
+    display: flex;
+    justify-content:space-around;
+    overflow: hidden;
+    margin-top: 10%;
+}
+div.event_item{
+    width: 15%;
+    height: 50vw;
+    margin: 1px;
+    overflow: hidden;
+}
+div.event_item1{
+    flex-grow: 1;
+}
+div.event_text{
+    width: 99%;
+    height: 50vw;
+    margin: 1px;
+    background-color: transparent;
+    margin-top: -50vw;
+    transform: rotate(0deg);
+    color: black;
+    pointer-events: none;
+    font-size: 4.3vw;
+}
+div.event_text1{
+    text-align: center;
+    font-family: "Courier New", monospace;
+}
+div.event_text2{
+    text-align: center;
+    font-family: "Courier New", monospace;
+    margin-top: 3vw;
+}
+
+div.map{
+    margin-top: 10%;
+    width: 100%;
+    height: 30vw;
+    border: 3px solid black;
+}
+div.contact_container{
+    display: flex;
+    justify-content:space-around;
+    overflow: hidden;
+}
+div.contact_item{
+    width: 15%;
+    height: 18vw;
+    margin: 1px;
+    overflow: hidden;
+}
+div.contact_item1{
+    flex-grow: 1;
+    font-family: "Courier New", monospace;
+    color: #D54062;
+    text-align: center;
+    font-size: 2.3vw;
+    pointer-events: none;
+}
+div.contact_item2{
+    flex-grow: 1;
+    font-family: Brush Script MT;
+    font-size: 6vw;
+    text-align: center;
+    color: #D54062;
+    pointer-events: none;
+}
+div.contact_item3{
+    flex-grow: 1;
+    font-family: "Courier New", monospace;
+    color: #D54062;
+    text-align: center;
+    font-size: 2.3vw;
+    pointer-events: none;
+}
+
+div.container{
+    width: 0;
+    flex-grow: 1;
+}
+div.master_container{
+    display: flex;
+    justify-content:space-around;
+    overflow: hidden;
+}
+div.mcontainer{
+    width: 0%;
+    background-color: #FBD148;
+    transition: 500ms;
+    overflow: hidden;
+}
+div.menuitem{
+    position: fixed;
+    top: calc(100px + 2vw);
+    height: calc(20px + 2vw);
+    width: 150px;
+    color: black;
+    opacity: 0;
+    margin-left: 15px;
+    font-family: "Courier New", monospace;
+    font-size: calc(10px + 1vw);
+    transition: 400ms ease-out;
+}
+div.menuitem1{
+    background-color: transparent;
+    transition: 200ms;
+}
+div.menuitem2{
+    background-color: transparent;
+    width: 100;
+    margin-top: calc(30px + 2vw);
+}
+div.menuitem3{
+    background-color: transparent;
+    margin-top: calc(60px + 4vw);
+}
+div.menuitem4{
+    background-color: transparent;
+    margin-top: calc(90px + 6vw);
+}
+div.menuitem5{
+    background-color: transparent;
+    margin-top: calc(120px + 8vw);
+}
+
+html{
+    scroll-behavior: smooth;
+}
+div.leftcontainer{
+    width: 10%;
+    transition: 500ms;
+}
+div.rightcontainer{
+    width: 10%;
+}
+
+:target {
+    display: block;
+    position: relative;
+    top: calc(6vw + 10px); 
+    visibility: hidden;
+  }
